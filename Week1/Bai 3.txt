@@ -1,0 +1,25 @@
+-(0, 4)-> Do 0 và 4 đều có cùng trọng số do đó trỏ 4 vào 0
+=>Sai
+
+-(2, 3)-> Do 2 và 3 có cùng trọng số do đó trỏ 3 vào 2
+=>Đúng
+
+-(4, 0)-> Do 0 và 4 đều có cùng trọng số do đó trỏ 0 vào 4
+=>Đúng
+
+-(4, 5)-> Do 4 có trọng số lớn hơn 5 nên trỏ 5 vào 5
+=>Đúng
+
+-(5, 0)-> Do 0 có trọng số lớn hơn 5 nên trỏ 5 vào 0
+=>Sai
+
+-(5, 7)-> Do 5 và 7 có trọng số bằng nhau nên trỏ 7 vào 5
+=>Đúng
+
+-(6,4)-> Do 4 có trọng số lớn hơn 6 nên trỏ 6 vào 4
+=>Đúng
+
+-(8, 9)-> Do 8 và 9 có cùng trọng số do đó trỏ 9 vào 8
+=>Đúng
+
+=>Các cặp có khả năng là tham số:(2, 3); (4, 0); (4, 5); (5, 7); (6, 4); (8, 9) 
