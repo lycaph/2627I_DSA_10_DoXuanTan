@@ -1,0 +1,13 @@
+C1 Lỗi biến: Khi để leader[i] = leader[q] sẽ khiến mất đi giá trị đối chiếu leader[i]
+ví dụ: 
+par = [0, 0, 2, 2, 0]
+num = [0, 1, 2, 3, 4]
+union(0, 2) -> par[0] = 0, par[2] = 2
+expected : 
+par = [2, 2, 2, 2, 0]
+num = [0, 1, 2, 3, 4]
+real :
+par = [2, 0, 2, 2, 0]
+num = [0, 1, 2, 3, 4]
+Giải thích: khi xét leader[0], đã gán leader[0] = 2 rồi nên các điểm phía sau nối với 0 sẽ có leader[i] != leader[0] do leader[0] không còn là 0 nữa
+Cách sửa: gán một biến đối chiếu: rootP = leader[p]; rootQ = leader[q]
