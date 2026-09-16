@@ -1,0 +1,6 @@
+a, Cấu trúc dữ liệu có 1 thành phần liên thông duy nhất
+b, Bát đầu từ khởi tạo, mỗi lần 1 hàm union được gọi, số lần cập nhật mảng tăng theo cấp số cộng do đó với n phần tử, tổng số lần cập nhật là 1+2+...+n-1 = n(n-1)/2
+c, Sau các thao tác union, mảng sẽ là dãy từ [1, 2,..., n-1, n-1]. Khi ta gọi find(0), bộ đọc sẽ phải truy cập ngược từ 0 
+-> ô cuối do đó tổng số lần truy cập là n
+d, Sau các thao tác union với weighted quick union, mảng sẽ là [0, 0,..., 0]
+->Khi gọi find(0) chỉ cần 1 lần truy cập mảng
