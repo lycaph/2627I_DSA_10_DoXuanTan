@@ -1,0 +1,1 @@
+parent[8] có thể là bất cứ số nào từ 0 đến 9, ngoại trừ 9 vì parent[9] = 8 sẽ tạo ra vòng lặp vô hạn khi gọi find(x)
