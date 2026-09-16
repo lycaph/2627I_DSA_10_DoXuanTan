@@ -1,0 +1,2 @@
+Biểu diễn parent link này không phải của weighted quick union vì:
++Ta nhận thấy nút 0 được nối vào nút 5 chứng tỏ nút 5 có trọng số lớn hơn nút 0 tuy nhiên, khi tách nút 0 ra nút 5 chỉ có trọng số là 3 trong khi 0 có trọng số là 7 điều này không hợp lí với weighted quick union 
