@@ -1,4 +1,4 @@
-package princeton.cs.algs4; /******************************************************************************
+/******************************************************************************
  *  Compilation:  javac ThreeSum.java
  *  Execution:    java ThreeSum input.txt
  *  Dependencies: In.java StdOut.java Stopwatch.java

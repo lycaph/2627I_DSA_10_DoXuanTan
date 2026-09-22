@@ -1,0 +1,7 @@
+a, O(N)
+b, O(1)
+c, 1 + 3/N + 2/N^2 -> O(1)
+d, O(N^3)
+e, (lg2 + lgN)/lgN -> 1/lgN + 1 -> O(1)
+f, 2lgN/lgN -> O(1)
+g, Do hàm mũ là nhanh nhất -> O(1)
