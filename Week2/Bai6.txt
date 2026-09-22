@@ -1,0 +1,14 @@
+a, Vòng ngoài có n giảm dần theo cấp số nhân hệ số 2
+Vòng trong chạy đúng n lần
+-> N + N/2 + N/4 +...
+-> N(1 + 1/2 + 1/4 +...)
+-> N(1 + 1) = 2N
+-> O(N)
+b, Vòng ngoài i tăng theo cấp số nhân hệ số 2
+Vòng trong chạy đúng i lần
+-> 1 + 2 + 4 +...+ N
+-> O(N)
+c, Vòng ngoài i tăng thro cấp số nhân hệ số 2
+Vòng trong j chạy đúng N lần
+-> log2(N) x N
+-> O(NlogN)
