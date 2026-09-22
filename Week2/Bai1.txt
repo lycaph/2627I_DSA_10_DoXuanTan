@@ -1,0 +1,9 @@
+1. Với N = 3, số bộ ba là 3(3-1)(3-2)/6=1
+Giả sử công thức đúng với N=k
+-> k(k-1)(k-2)/6 đúng
+Xét N=k+1, số bộ ba là (k+1)k(k-1)/6
+Giả sử ta tách K+1 thành phần tử X và bộ k phần tử
++TH1: bộ ba phần tử không chứa X -> k(k-1)(k-2)/6 cách
++TH2: bộ ba phần tử chứa X -> ta chọn 2 trong k phần tử: k(k-1)/2
+=>Số cách chọn bộ ba từ k+1 phần tử là k(k-1)(k-2)/6 + k(k-1)/2
+=>Ta quy đồng lên được k(k-1)(k-2+3)/6 = k(k-1)(k+1)/6->đpcm
