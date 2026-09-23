@@ -1,0 +1,2 @@
+Khi n cực lớn, n*sqrt(n) sẽ tăng nhanh nhất
+-> O(N*sqrt(N))
