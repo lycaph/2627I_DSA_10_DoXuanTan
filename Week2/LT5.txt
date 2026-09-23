@@ -1,0 +1,6 @@
+Với 2 vòng lặp ngoài, j lặp với cấp số cộng, hệ số -1
+-> N(N-1)/2
+Với vòng lặp trong, k lặp 1, 1 + n/100, 1+ 2n/100,... , 1+99n/100
+-> k lặp đúng 100 lần
+-> Tổng: 100N(N-1)/2 <=> 50N(N-1)
+-> O(50n^2)
