@@ -1,0 +1,6 @@
+Một đối tượng BST:
+Object overhead: 16 byte
+5 biến tham chiếu: 8*5 = 40 byte
+1 biến int: 4 byte 
+-> Tổng: 64 byte
+-> với n đối tượng ta cần 64n byte
