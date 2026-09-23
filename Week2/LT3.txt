@@ -1,0 +1,4 @@
+f(n) = 2n^2 + 2n + 6log2(n)
+Với hàm này, khi n cực lớn, có thể coi f(n) = 2n^2
+Khi n nhỏ, f(n) cũng có thể coi là 2n^2
+-> O(n^2) và omega(n^2)
