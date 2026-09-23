@@ -1,0 +1,27 @@
+1. Vòng lặp bắt đầu tại i=10, kết thúc tại n+5, bước là 2
+-> nếu i<5 thì op() không được gọi
+-> nếu n cực lớn thì op() được gọi (N+5 - 10)/2+1 lần tương đương O(N)
+
+2. Vòng lặp bắt đầu tại 1, kết thúc tại n**3, bước là i *= 2
+-> khi n cực lớn, op() được gọi theo cấp số nhân hệ số 2
+1, 2, 4,..., log2(N**3) + 1
+-> tương đương với logN^3 =3logN -> O(logN)
+
+3. Vòng ngoài: i lặp n lần
+Vòng trong: j lặp 100 lần
+-> op() lặp 100n lần tương đương O(N)
+
+4. Vòng ngoài bắt đầu tại 0, kết thúc khi i*i >= n
+-> lặp sqrt(N) lần
+Vòng trong j bắt đầu tại 1, kết thúc tại n, bước là 3
+-> lặp n/3 lần
+-> Khi n cực lớn, op() sẽ được gọi N^(3/2)/3 lần tương đương O(N sqrt(N))
+
+5. Vòng ngoài lặp n lần
+Vòng trong lặp log2N lần
+-> Khi n cực lớn, op() được gọi Nlog2(N) lần tương đương O(NlogN)
+
+6. Vòng i lặp n lần
+Vòng j lặp 100 lần
+Vòng k và l lặp theo cấp số cộng, hệ số -1 -> N(N+1)/2 lần
+-> Khi n cực lớn, op() được gọi 100N*N(N+1)/2 lần tương đương O(N**3)
