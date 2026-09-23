@@ -1,0 +1,5 @@
+Với 2 vòng lặp ngoài, đoạn code chọn ra tất cả các cặp i, j thỏa mãn 0<i, j<n*n
+-> Số vòng lặp là N^2(N^2-1)/2
+Với vòng lặp trong, k chạy log2(n*n) lần
+-> Khi n cực lớn, op() được gọi N^2(N^2-1)/2 * log2(n*n) lần
+<=> N^4/2 * 2logN tương đương O(N^4*logN)
