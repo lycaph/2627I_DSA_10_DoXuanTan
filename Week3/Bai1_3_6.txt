@@ -1,0 +1,1 @@
+Đoạn code đảo ngược thứ tự của các phần tử trong q
