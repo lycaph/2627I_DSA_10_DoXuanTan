@@ -1,0 +1,3 @@
+chuỗi b không thể là output vì 1 push sau 0 nên 1 phải in ra trước
+chuỗi f không thể là output vì 2 push sau 1 nên 2 phải in ra trước
+chuối g không thể là output vì 2 push sau 0 nên 2 phải in ra trước
