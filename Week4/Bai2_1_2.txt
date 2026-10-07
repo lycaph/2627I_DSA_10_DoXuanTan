@@ -1,0 +1,1 @@
+Trong selection sort, 1 phần tử được đổi chỗ tối đa khi phần tử đó là phần tử lớn nhất nhưng lại xếp ở đầu một danh sách tăng dần thay vì cuối. Lúc này, phần tử đó sẽ bị đổi chỗ n lần
