@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+
+public class W7_CODE2 {
+
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+
+        int i = 0;
+        int j = A.length()-1;
+
+        boolean flag = true;
+        while (i < j) {
+            if (A.charAt(i) != A.charAt(j)) {
+                flag = false;
+                break;
+            }
+            i++;
+            j--;
+        }
+        if (flag == true) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+
+    }
+}
+
+
+
